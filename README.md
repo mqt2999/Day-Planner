@@ -7,3 +7,4 @@ For this repository I have created a Daily planner.
 -The user is able to click on a text box and enter in any events and save them.
 -On reload the events will still be saved.
 ![Preview](images/sample.png)
+https://mqt2999.github.io/Day-Planner/
