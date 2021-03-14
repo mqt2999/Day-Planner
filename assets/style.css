@@ -85,3 +85,7 @@ input{
 display: flex;
 flex-direction: row;
 }
+#curTime{
+
+  padding-bottom: 2%;
+}

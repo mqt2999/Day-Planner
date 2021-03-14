@@ -1,3 +1,4 @@
+document.getElementById('curTime').textContent = moment().format('[Current: ]dddd MMMM Do, YYYY h:mm a')
 var now = moment().hour()
 runIt()
 function runIt() {
