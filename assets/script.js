@@ -14,10 +14,9 @@ function nine() {
     var nineSvEl = $("#nineSvB")
     var nineAm = moment().format("9")
     var slot1El = $('#slot1')
-    console.log(nineAm)
     if (nineAm < now) {
         slot1El.addClass('past')
-        console.log(nineAm)
+        
     }
     else if (nineAm == now) {
         slot1El.addClass('present')
@@ -36,10 +35,10 @@ function ten() {
     var tenSvEl = $("#tenSvB")
     var tenAm = moment().format("10")
     var slot2El = $('#slot2')
-    console.log(tenAm)
+   
     if (tenAm < now) {
         slot2El.addClass('past')
-        console.log(tenAm)
+        
     }
     else if (tenAm == now) {
         slot2El.addClass('present')
@@ -58,10 +57,10 @@ function eleven() {
     var elevenSvEl = $("#elevenSvB")
     var elevenAm = moment().format("11")
     var slot3El = $('#slot3')
-    console.log(elevenAm)
+   
     if (elevenAm < now) {
         slot3El.addClass('past')
-        console.log(elevenAm)
+        
     }
     else if (elevenAm == now) {
         slot3El.addClass('present')
@@ -80,10 +79,10 @@ function twelve() {
     var twelveSvEl = $("#twelveSvB")
     var twelveAm = moment().format("12")
     var slot4El = $('#slot4')
-    console.log(twelveAm)
+    
     if (twelveAm < now) {
         slot4El.addClass('past')
-        console.log(twelveAm)
+        
     }
     else if (twelveAm == now) {
         slot4El.addClass('present')
@@ -102,10 +101,10 @@ function one() {
     var oneSvEl = $("#oneSvB")
     var oneAm = moment().format("13")
     var slot5El = $('#slot5')
-    console.log(oneAm)
+  
     if (oneAm < now) {
         slot5El.addClass('past')
-        console.log(oneAm)
+        
     }
     else if (oneAm == now) {
         slot5El.addClass('present')
@@ -124,10 +123,10 @@ function two() {
     var twoSvEl = $("#twoSvB")
     var twoAm = moment().format("14")
     var slot6El = $('#slot6')
-    console.log(twoAm)
+   
     if (twoAm < now) {
         slot6El.addClass('past')
-        console.log(twoAm)
+        
     }
     else if (twoAm == now) {
         slot6El.addClass('present')
@@ -146,10 +145,10 @@ function three() {
     var threeSvEl = $("#threeSvB")
     var threeAm = moment().format("15")
     var slot7El = $('#slot7')
-    console.log(threeAm)
+    
     if (threeAm < now) {
         slot7El.addClass('past')
-        console.log(threeAm)
+        
     }
     else if (threeAm == now) {
         slot7El.addClass('present')
@@ -168,10 +167,10 @@ function four() {
     var fourSvEl = $("#fourSvB")
     var fourAm = moment().format("16")
     var slot8El = $('#slot8')
-    console.log(fourAm)
+   
     if (fourAm < now) {
         slot8El.addClass('past')
-        console.log(fourAm)
+        
     }
     else if (fourAm == now) {
         slot8El.addClass('present')
@@ -190,10 +189,10 @@ function five() {
     var fiveSvEl = $("#fiveSvB")
     var fiveAm = moment().format("17")
     var slot9El = $('#slot9')
-    console.log(fiveAm)
+    
     if (fiveAm < now) {
         slot9El.addClass('past')
-        console.log(fiveAm)
+      
     }
     else if (fiveAm == now) {
         slot9El.addClass('present')
@@ -255,5 +254,11 @@ function reshow() {
         var slot8El = $('#slot8')
         var eight = JSON.parse(localStorage.getItem("hour16"))
         slot8El.val(eight)
+    }
+    fiveAAm()
+    function fiveAAm() {
+        var slot9El = $('#slot9')
+        var nine = JSON.parse(localStorage.getItem("hour17"))
+        slot9El.val(nine)
     }
 }
