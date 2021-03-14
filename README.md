@@ -10,6 +10,6 @@
 
 * On reload the events will still be saved.
 
-* ![Preview](images/sample.png)
+ ![Preview](images/sample.png)
 
 * https://mqt2999.github.io/Day-Planner/
